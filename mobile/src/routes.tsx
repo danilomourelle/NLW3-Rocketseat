@@ -47,3 +47,5 @@ export default function Routes() {
     </NavigationContainer>
   )
 }
+
+TabNine:: config

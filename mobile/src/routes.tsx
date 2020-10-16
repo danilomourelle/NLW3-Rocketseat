@@ -32,7 +32,7 @@ export default function Routes() {
           component={OrphanageData}
           options={{
             headerShown: true,
-            header: () => <Header title="Selecione no Mapa" />
+            header: () => <Header title="Preencha os dados" />
           }}
         />
         <Screen
@@ -40,7 +40,7 @@ export default function Routes() {
           component={SelectMapPosition}
           options={{
             headerShown: true,
-            header: () => <Header title="Preencha os dados" />
+            header: () => <Header title="Selecione no Mapa" />
           }}
         />
       </Navigator>
